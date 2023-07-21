@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+  }
+  .bgpg{
+     background-color: #ddf5ff;
+  }
+  
+  body {
+    margin: 0;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #213741;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #myVideo {
+    position:relative;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 100%;
+  }
+  .content {
+    position: fixed;
+    text-align: center;
+    color: #f1f1f1;
+    width: 100%;
+    z-index:+5;
+  }
+  h1,h2{
+      text-align: center;
+  }
+  p{
+      text-align: justify;
+      font-size: 21px;
+      width: 1500px;
+      height:100px;
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  div.gallery {
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+    width: 480px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .india{
+    float:right;
+    margin-right: 10%;
+    padding-top: 5%;
+  }
+  .why{
+    font-size: 20px;
+    margin-left: 10%;
+    padding-top: 5%;
+  }
+  .mySlides{
+    position:relative;
+  }
+  /* Style the top navigation bar */
+
+.bgpg{
+background-color: #ddf5ff;
+}
+.heading{
+text-align:center;
+}
+.img1{
+float:left;
+}
+.caption{
+float:right;
+text-align: justify;
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:#213741;
+  color:#ffff
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.testimonal {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-size: 8px;
+  margin: 35px 10px 10px;
+  max-width: 350px;
+  min-width: 280px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-left: 7%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #213741;
+}
+
+.testimonal figcaption {
+  padding: 13% 10% 12%;
+} 
+
+.testimonal h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.testimonal h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.testimonal blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
